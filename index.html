@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Montserrat&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">    <title>THE FATO</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <a href="index.html"><img src="img/the-fato-curto.png" alt="logo thefato" class="cabeçalho__logo"></a>
+        
+
+        <button onclick="menuAparecer()" class="menu">
+            <img src="img/ponto-menu.png" alt="menu" class="menu__logo">
+            <p class="menu__texto">Menu</p>
+        </button>
+        <ul class="lista-menu">
+            <button class="fechar-menu" onclick="menuAparecer()">
+                <p>Fechar menu ✖️</p>
+            </button>
+            <li class="lista-menu__item">
+                <a href="index.html" class="lista-menu__link">loja</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="html/menu/videos.html" class="lista-menu__link">videos</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="html/menu/lookbook.html" class="lista-menu__link">lookbook</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="html/menu/contato.html" class="lista-menu__link">contato</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="html/menu/carrinho.html" class="lista-menu__link">carrinho</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <nav class="categorias">
+            <div class="categorias__botao-principal">
+                <button class="categorias__titulo" onclick="listaAparecer()">categorias</button>
+            </div>
+            <div class="categorias__lista">
+                <button class="categorias__botao"><a href="html/categorias/categoria1.html" class="categorias__link">new</a></button>
+                <button class="categorias__botao"><a href="index.html" class="categorias__link">all</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">olkabone</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">komiku</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">preda</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">marroquino</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">gorurudo</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">panxa de balao</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">pipokinha</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">two players</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">construção</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">ela partiu</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">falador paça mau</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">sobrevivente</a></button>
+                <button class="categorias__botao"><a href="#" class="categorias__link">lepistopiscoxwe</a></button>
+            </div>
+        </nav>
+        <section class="produtos">
+            <ul class="produtos__lista">
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+                <!--para aqui-->
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__gelo" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=7dy2n6I7Yok" class="produtos__ancora">
+                        <img src="roupas/moletom-logo-gelo-sem-toca.png" alt="moletom-tf1" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom logo gelo sem toca</h1>
+                        <p class="produtos__valor">R$ 957,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__emoji" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://jacutemsabao.bitbucket.io/download.html" class="produtos__ancora">
+                        <img src="roupas/moletom-emoji.png" alt="moletom-emoji" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom emoji</h1>
+                        <p class="produtos__valor">R$ 666,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://twitter.com/marinz1nha/status/1703225871530627109" class="produtos__ancora">
+                        <img src="roupas/moletom-branco.png" alt="moletom-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom branco</h1>
+                        <p class="produtos__valor">R$ 148,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__cobra" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-cobra.png" alt="moletom-cobra" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom cobra</h1>
+                        <p class="produtos__valor">R$ 384,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-branco" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://www.youtube.com/watch?v=lxb7bACrSBc" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-branco.png" alt="moletom-dragao-branco" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão branco</h1>
+                        <p class="produtos__valor">R$ 5004,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__dragao-preto" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-dragao-preto.png" alt="moletom-dragao-preto" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom dragão preto</h1>
+                        <p class="produtos__valor">R$ 2,00</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__picole" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-picole.png" alt="moletom-picole" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom picolé</h1>
+                        <p class="produtos__valor">R$ 86,20</p>
+                    </a>
+                </li>
+                <li class="produtos__li moletom__tf-cinza" onmouseover="mouseon(this)" onmouseout="mouseoff(this)">
+                    <a href="https://alwaysjudgeabookbyitscover.com/" class="produtos__ancora">
+                        <img src="roupas/moletom-tf-cinza.png" alt="moletom-tf-cinza" class="produtos__imagem">
+                        <h1 class="produtos__titulo">Moletom TF cinza</h1>
+                        <p class="produtos__valor">R$ 367,98</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="java/script.js"></script>
+</body>
+</html>
